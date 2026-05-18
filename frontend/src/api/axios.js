@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Backend URL
+  baseURL: 'https://employee-performance-ai.onrender.com/api', // Backend URL
 });
 
 // Add a request interceptor to add the auth token to headers
